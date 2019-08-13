@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_start_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="238">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -25,8 +25,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="243">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_capabilities.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -50,6 +62,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/my_start_test.py" />
+        <option value="$PROJECT_DIR$/test_capabilities.py" />
         <option value="$PROJECT_DIR$/test_login.py" />
       </list>
     </option>
@@ -138,6 +151,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_capabilities.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="selenium-python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_capabilities.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium-python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,6 +184,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_login.py" />
+        <item itemvalue="Python tests.pytest in test_capabilities.py" />
         <item itemvalue="Python tests.pytest in my_start_test.py" />
         <item itemvalue="Python.my_start_test" />
       </list>
@@ -175,22 +204,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_my_start_test_py - 2019.08.06 at 15h 24m 43s.xml">
-      <configuration name="pytest in my_start_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_my_start_test_py - 2019.08.06 at 15h 31m 13s.xml">
-      <configuration name="pytest in my_start_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_my_start_test_py - 2019.08.06 at 15h 32m 23s.xml">
-      <configuration name="pytest in my_start_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_my_start_test_py - 2019.08.06 at 15h 34m 34s.xml">
-      <configuration name="pytest in my_start_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.07 at 15h 13m 55s.xml">
+    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 14h 59m 51s.xml">
       <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.07 at 15h 14m 59s.xml">
+    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 15h 01m 42s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 15h 22m 11s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 15h 23m 42s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.12 at 11h 21m 49s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 17m 21s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 17m 51s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 45m 16s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 47m 13s.xml">
+      <configuration name="pytest in test_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 48m 45s.xml">
       <configuration name="pytest in test_login.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -204,7 +245,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
@@ -229,8 +270,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my_start_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="238">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_capabilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -239,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="243">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
