@@ -11,10 +11,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_start_test.py">
+        <entry file="file://$PROJECT_DIR$/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="153">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -23,22 +23,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_login.py">
+        <entry file="file://$PROJECT_DIR$/test_check_menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_capabilities.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="338">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -63,7 +51,9 @@
       <list>
         <option value="$PROJECT_DIR$/my_start_test.py" />
         <option value="$PROJECT_DIR$/test_capabilities.py" />
+        <option value="$PROJECT_DIR$/test_check_dir.py" />
         <option value="$PROJECT_DIR$/test_login.py" />
+        <option value="$PROJECT_DIR$/test_check_menu.py" />
       </list>
     </option>
   </component>
@@ -78,6 +68,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,7 +85,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_login.py">
+  <component name="RunManager" selected="Python tests.pytest in test_check_menu.py">
     <configuration name="my_start_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium-python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,6 +156,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_check_menu.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="selenium-python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_check_menu.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium-python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_check_menu.py" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in test_capabilities.py" />
         <item itemvalue="Python tests.pytest in my_start_test.py" />
@@ -204,35 +210,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 14h 59m 51s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 10h 00m 27s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 15h 01m 42s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 10h 04m 09s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 15h 22m 11s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 10h 32m 30s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.09 at 15h 23m 42s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 10h 38m 09s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.12 at 11h 21m 49s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 10h 52m 03s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 17m 21s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 11h 10m 49s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 17m 51s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 11h 14m 23s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 45m 16s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 11h 16m 43s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 47m 13s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 11h 40m 20s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_login_py - 2019.08.13 at 10h 48m 45s.xml">
-      <configuration name="pytest in test_login.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 11h 41m 27s.xml">
+      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -245,7 +251,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
@@ -254,7 +260,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
@@ -268,20 +274,20 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my_start_test.py">
+    <entry file="file://$PROJECT_DIR$/test_capabilities.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_capabilities.py">
+    <entry file="file://$PROJECT_DIR$/my_start_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -290,8 +296,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="153">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_check_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
