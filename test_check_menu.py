@@ -19,16 +19,18 @@ def test_check_menu(driver):
     menu_list = driver.find_elements_by_css_selector('li#app- a')
     hrefs = list_hrefs(menu_list)
     for href in hrefs:
-        driver.get(href)
-        if are_elements_present(driver, "h1") is True:
-            print("Заголовок H1 присутствует на странице " + href)
+        get_check_tag(driver, href)
         menu_list_inside = driver.find_elements_by_css_selector('li#app- li a')
         if len(menu_list_inside) > 0:
             hrefs_inside = list_hrefs(menu_list_inside)
             for href_inside in hrefs_inside:
-                driver.get(href_inside)
-                if are_elements_present(driver, "h1") is True:
-                    print("Заголовок H1 присутствует на странице в подкаталоге " + href_inside)
+                get_check_tag(driver, href_inside)
+
+
+def get_check_tag(driver, href):
+    driver.get(href)
+    if are_elements_present(driver, "h1") is True:
+        print("Заголовок H1 присутствует на странице " + href)
 
 
 def list_hrefs(menu_list):
