@@ -13,8 +13,8 @@ def driver(request):
 
 def test_check_stickers(driver):
     driver.get("http://localhost/litecart/en/")
-    stickers_list = driver.find_elements_by_css_selector('div.image-wrapper')
-    for sticker in stickers_list:
+    product_list = driver.find_elements_by_css_selector('.product')
+    for sticker in product_list:
         len_sticker = len(sticker.find_elements_by_css_selector('.sticker'))
         str_sticker = str(len_sticker)
         if len_sticker > 1:
