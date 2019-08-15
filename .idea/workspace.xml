@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_check_menu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="318">
+              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="52" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_check_stickers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="185">
+              <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -217,18 +217,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 16h 10m 41s.xml">
-      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 16h 16m 34s.xml">
-      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 16h 18m 12s.xml">
-      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 16h 23m 20s.xml">
-      <configuration name="pytest in test_check_menu.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_in_test_check_menu_py - 2019.08.14 at 16h 24m 36s.xml">
       <configuration name="pytest in test_check_menu.py" configurationId="tests" />
     </history-entry>
@@ -247,6 +235,18 @@
     <history-entry file="pytest_in_test_check_stickers_py - 2019.08.15 at 08h 28m 44s.xml">
       <configuration name="pytest in test_check_stickers.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_in_test_check_stickers_py - 2019.08.15 at 09h 15m 42s.xml">
+      <configuration name="pytest in test_check_stickers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_check_stickers_py - 2019.08.15 at 10h 16m 48s.xml">
+      <configuration name="pytest in test_check_stickers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_check_stickers_py - 2019.08.15 at 10h 22m 33s.xml">
+      <configuration name="pytest in test_check_stickers.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_check_stickers_py - 2019.08.15 at 10h 23m 32s.xml">
+      <configuration name="pytest in test_check_stickers.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,7 +258,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
@@ -313,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_check_menu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="318">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="52" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -323,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_check_stickers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="185">
+          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

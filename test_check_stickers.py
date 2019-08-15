@@ -17,9 +17,10 @@ def test_check_stickers(driver):
     for sticker in product_list:
         len_sticker = len(sticker.find_elements_by_css_selector('.sticker'))
         str_sticker = str(len_sticker)
+        product_name = sticker.find_element_by_css_selector('.name').text
         if len_sticker > 1:
-            print("На карточке товара больше одного стикера: " + str_sticker)
+            print("На карточке товара " + product_name + " больше одного стикера: " + str_sticker)
         elif len_sticker == 0:
-            print("На карточке товара ни одного стикера: " + str_sticker)
+            print("На карточке товара " + product_name + " ни одного стикера: " + str_sticker)
         else:
-            print("На карточке товара один стикер: " + str_sticker)
+            print("На карточке товара " + product_name + " один стикер: " + str_sticker)
