@@ -7,6 +7,9 @@ def driver(request):
     options = webdriver.ChromeOptions()
     options.add_argument("start-maximized")
     wd = webdriver.Chrome(chrome_options=options)
+    # wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
+    # wd = webdriver.Ie()
+    # wd.implicitly_wait(10)
     request.addfinalizer(wd.quit)
     return wd
 
