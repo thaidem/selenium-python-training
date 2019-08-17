@@ -57,6 +57,7 @@ def get_name(driver, arg):
 
 
 def get_font_size(driver, arg):
-    font_size = float(driver.find_element_by_css_selector(arg).value_of_css_property('font-size').rstrip('px'))
+    font_size = driver.find_element_by_css_selector(arg).value_of_css_property('font-size')
+    font_size_float = float(font_size.rstrip('px'))
     print(font_size)
-    return font_size
+    return font_size_float
