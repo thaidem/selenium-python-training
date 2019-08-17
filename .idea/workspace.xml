@@ -8,58 +8,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_check_menu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_check_stickers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_check_countries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_check_zones.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -70,54 +18,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/my_start_test.py" />
-        <option value="$PROJECT_DIR$/test_capabilities.py" />
-        <option value="$PROJECT_DIR$/test_check_dir.py" />
-        <option value="$PROJECT_DIR$/test_login.py" />
-        <option value="$PROJECT_DIR$/test_check_menu.py" />
-        <option value="$PROJECT_DIR$/test_check_zones.py" />
-        <option value="$PROJECT_DIR$/test_check_countries.py" />
-        <option value="$PROJECT_DIR$/test_check_stickers.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="20" />
-    <option name="y" value="35" />
-    <option name="width" value="1300" />
-    <option name="height" value="788" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="selenium-python-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-python-training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="selenium-python-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium-python-training" type="462c0819:PsiDirectoryNode" />
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1PWJFk6itBiuVIclaXYhymrglLp" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_traning" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,7 +36,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_check_countries.test_check_countries">
+  <component name="RunManager" selected="Python tests.pytest in test _check_duck.py">
+    <configuration name="pytest for test _duck.test_check_duck" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="selenium-python-training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Develops\selenium-python-training\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test _duck.test_check_duck&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_check_countries.test_check_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium-python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +67,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_check_stickers.test_check_stickers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_check_zones.test_check_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium-python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +78,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_check_stickers.test_check_stickers&quot;" />
+      <option name="_new_target" value="&quot;test_check_zones.test_check_countries&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_check_countries.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test _check_duck.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="selenium-python-training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,7 +93,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_check_countries.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test _check_duck.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -192,28 +112,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_check_zones.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="selenium-python-training" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_check_zones.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_check_countries.test_check_countries" />
-        <item itemvalue="Python tests.pytest for test_check_stickers.test_check_stickers" />
-        <item itemvalue="Python tests.pytest in test_check_zones.py" />
-        <item itemvalue="Python tests.pytest in test_check_countries.py" />
+        <item itemvalue="Python tests.pytest in test _check_duck.py" />
+        <item itemvalue="Python tests.pytest for test _duck.test_check_duck" />
         <item itemvalue="Python tests.pytest in test_check_stickers.py" />
+        <item itemvalue="Python tests.pytest for test_check_zones.test_check_countries" />
+        <item itemvalue="Python tests.pytest for test_check_countries.test_check_countries" />
       </list>
     </recent_temporary>
   </component>
@@ -230,38 +135,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_in_test_check_countries_py - 2019.08.16 at 16h 27m 57s.xml">
-      <configuration name="pytest in test_check_countries.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 28m 56s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 29m 34s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 30m 18s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 40m 42s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 52m 37s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 56m 05s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 58m 01s.xml">
-      <configuration name="pytest in test_check_zones.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_check_stickers_test_check_stickers - 2019.08.16 at 16h 59m 39s.xml">
-      <configuration name="pytest for test_check_stickers.test_check_stickers" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_check_countries_test_check_countries - 2019.08.16 at 17h 00m 48s.xml">
-      <configuration name="pytest for test_check_countries.test_check_countries" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -271,99 +144,17 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="784" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24880762" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297546" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297546" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3297546" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_capabilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_start_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="92" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_check_menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_check_stickers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_check_countries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_check_zones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
