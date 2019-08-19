@@ -19,28 +19,34 @@ def driver(request):
 def test_check_duck(driver):
     driver.get("http://localhost/litecart/en/")
     product_front = driver.find_element_by_css_selector('div#box-campaigns li.product')
+#
     name_front = get_item(product_front, 'div.name')
     regular_price_front = get_item(product_front, '.regular-price')
     color_regular_front = color_conv(product_front, '.regular-price')
     assert (color_regular_front[0], color_regular_front[1], color_regular_front[2])
     assert (get_tag(product_front, '.regular-price'), 's')
+#
     campaign_price_front = get_item(product_front, '.campaign-price')
     color_campaign_front = color_conv(product_front, '.campaign-price')
     eqv_color_campaign(color_campaign_front)
     assert (get_tag(product_front, '.campaign-price'), 'strong')
     eqv_font_size(get_font_size(product_front, '.campaign-price'), get_font_size(product_front, '.regular-price'))
+#
     driver.get("http://localhost/litecart/en/rubber-ducks-c-1/subcategory-c-2/yellow-duck-p-1")
     product_inside = driver.find_element_by_css_selector('div#box-product')
+#
     name_inside = get_item(product_inside, 'h1')
     regular_price_inside = get_item(product_inside, '.regular-price')
     color_regular_inside = color_conv(product_inside, '.regular-price')
     assert (color_regular_inside[0], color_regular_inside[1], color_regular_inside[2])
     assert (get_tag(product_inside, '.regular-price'), 's')
+#
     campaign_price_inside = get_item(product_inside, '.campaign-price')
     color_campaign_inside = color_conv(product_inside, '.campaign-price')
     eqv_color_campaign(color_campaign_inside)
     assert (get_tag(product_inside, '.campaign-price'), 'strong')
     eqv_font_size(get_font_size(product_inside, '.campaign-price'), get_font_size(product_inside, '.regular-price'))
+#
     assert (name_front, name_inside)
     assert (regular_price_front, regular_price_inside)
     assert (campaign_price_front, campaign_price_inside)
