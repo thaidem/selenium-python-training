@@ -9,6 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -75,6 +76,8 @@
   </component>
 =======
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
+=======
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -85,6 +88,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,6 +138,9 @@
 =======
   <component name="ProjectId" id="1PWJFk6itBiuVIclaXYhymrglLp" />
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
+=======
+  <component name="ProjectId" id="1PWJFk6itBiuVIclaXYhymrglLp" />
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -152,8 +159,13 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.pytest for test_check_duck_.test_check_stickers">
     <configuration name="pytest for test_check_countries.test_check_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python tests.pytest in test _check_duck.py">
+    <configuration name="pytest for test _duck.test_check_duck" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
 =======
   <component name="RunManager" selected="Python tests.pytest in test _check_duck.py">
     <configuration name="pytest for test _duck.test_check_duck" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -173,7 +185,11 @@
       <method v="2" />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration name="pytest for test_check_duck_.test_check_stickers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="pytest for test_check_countries.test_check_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
 =======
     <configuration name="pytest for test_check_countries.test_check_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
@@ -188,11 +204,19 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;test_check_duck_.test_check_stickers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_check_stickers.test_check_stickers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;test_check_countries.test_check_countries&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_check_zones.test_check_countries" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
 =======
       <option name="_new_target" value="&quot;test_check_countries.test_check_countries&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -211,11 +235,19 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;test_check_stickers.test_check_stickers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_check_countries.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;test_check_zones.test_check_countries&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test _check_duck.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
 =======
       <option name="_new_target" value="&quot;test_check_zones.test_check_countries&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -234,7 +266,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_check_countries.py&quot;" />
+=======
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test _check_duck.py&quot;" />
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
 =======
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test _check_duck.py&quot;" />
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
@@ -259,17 +295,23 @@
     <recent_temporary>
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <item itemvalue="Python tests.pytest for test_check_duck_.test_check_stickers" />
         <item itemvalue="Python tests.pytest for test_check_countries.test_check_countries" />
         <item itemvalue="Python tests.pytest for test_check_stickers.test_check_stickers" />
         <item itemvalue="Python tests.pytest in test_check_zones.py" />
         <item itemvalue="Python tests.pytest in test_check_countries.py" />
 =======
+=======
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
         <item itemvalue="Python tests.pytest in test _check_duck.py" />
         <item itemvalue="Python tests.pytest for test _duck.test_check_duck" />
         <item itemvalue="Python tests.pytest in test_check_stickers.py" />
         <item itemvalue="Python tests.pytest for test_check_zones.test_check_countries" />
         <item itemvalue="Python tests.pytest for test_check_countries.test_check_countries" />
+<<<<<<< HEAD
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
+=======
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
       </list>
     </recent_temporary>
@@ -287,6 +329,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="pytest_in_test_check_zones_py - 2019.08.16 at 16h 40m 42s.xml">
@@ -322,6 +365,8 @@
   </component>
 =======
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
+=======
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -331,6 +376,7 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="784" extended-state="7" />
@@ -436,6 +482,8 @@
       </provider>
     </entry>
 =======
+=======
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -448,6 +496,9 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
+>>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
+=======
 >>>>>>> 4bdac4b44f7cb6e0d1011efd481b61b193146983
   </component>
 </project>
