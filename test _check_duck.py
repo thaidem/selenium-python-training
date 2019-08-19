@@ -18,7 +18,7 @@ def driver(request):
 def test_check_duck(driver):
     driver.get("http://localhost/litecart/en/")
     product_front = driver.find_element_by_css_selector('div#box-campaigns li.product')
-    name_front = get_name(product_front, '.name')
+    name_front = get_name(product_front, 'div.name')
     color_regular_front = get_color(product_front, '.regular-price')
     color_campaign_front = get_color(product_front, '.campaign-price')
     font_size_regular_front = get_font_size(product_front, '.regular-price')
@@ -51,7 +51,7 @@ def get_color(driver, arg):
 
 
 def get_name(driver, arg):
-    name = driver.find_element_by_css_selector(arg).text
+    name = driver.find_element_by_css_selector(arg).get_attribute('innerText')
     print(name)
     return name
 
