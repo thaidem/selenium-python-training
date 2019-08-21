@@ -6,10 +6,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 @pytest.fixture
 def driver(request):
-    options = webdriver.ChromeOptions()
-    options.add_argument("start-maximized")
-    wd = webdriver.Chrome(chrome_options=options)
-    # wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
+    # options = webdriver.ChromeOptions()
+    # options.add_argument("start-maximized")
+    # wd = webdriver.Chrome(chrome_options=options)
+    wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
     # wd = webdriver.Firefox()
     #wd = webdriver.Ie()
     #wd.implicitly_wait(10)
@@ -33,7 +33,7 @@ def test_sign_login(driver):
     # driver.execute_script("arguments[0].setAttribute('autofocus', 'true')", select)
     # driver.execute_script("arguments[0].setAttribute('height', '15px')", select)
     # driver.execute_script("arguments[0].setAttribute('width', '15px')", select)
-    print(select.find_element_by_css_selector('[selectvalue="US"]').text)
+    print(select.find_element_by_css_selector('[select value="US"]').text)
     # select.find_element_by_css_selector('select [value="US"]').click()
     list = select.find_element_by_css_selector('[value="US"]')
     ActionChains(driver).move_to_element(select).click(list).send_keys(Keys.TAB).perform()
