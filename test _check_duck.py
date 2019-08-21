@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 import re
+# from selenium.webdriver.support.color import Color
 
 
 @pytest.fixture
@@ -23,11 +24,13 @@ def test_check_duck(driver):
     name_front = get_item(product_front, 'div.name')
     regular_price_front = get_item(product_front, '.regular-price')
     color_regular_front = color_conv(product_front, '.regular-price')
+    # print(Color.from_string(get_color(product_front, '.regular-price')).red)
     assert (color_regular_front[0], color_regular_front[1], color_regular_front[2])
     assert (get_tag(product_front, '.regular-price'), 's')
 #
     campaign_price_front = get_item(product_front, '.campaign-price')
     color_campaign_front = color_conv(product_front, '.campaign-price')
+    # print(Color.from_string(get_color(product_front, '.campaign-price')).green)
     eqv_color_campaign(color_campaign_front)
     assert (get_tag(product_front, '.campaign-price'), 'strong')
     eqv_font_size(get_font_size(product_front, '.campaign-price'), get_font_size(product_front, '.regular-price'))
