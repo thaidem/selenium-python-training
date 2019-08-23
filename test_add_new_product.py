@@ -9,10 +9,10 @@ from datetime import datetime
 
 @pytest.fixture
 def driver(request):
-    options = webdriver.ChromeOptions()
-    options.add_argument("start-maximized")
-    wd = webdriver.Chrome(chrome_options=options)
-    # wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
+    # options = webdriver.ChromeOptions()
+    # options.add_argument("start-maximized")
+    # wd = webdriver.Chrome(chrome_options=options)
+    wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
     # wd = webdriver.Ie()
     # wd.implicitly_wait(10)
     request.addfinalizer(wd.quit)
@@ -37,7 +37,7 @@ def test_add_new_product(driver):
     driver.find_element_by_css_selector('input[name="quantity"]').send_keys("11")
     select = Select(driver.find_element_by_css_selector('select[name="sold_out_status_id"]'))
     select.select_by_visible_text('-- Select --')
-    driver.find_element_by_css_selector('input[name="new_images[]"]').send_keys(os.getcwd() + "/bigduck.jpg")
+    driver.find_element_by_css_selector('input[name="new_images[]"]').send_keys(os.getcwd() + "\\bigduck.jpg")
     driver.find_element_by_css_selector('input[name="date_valid_from"]')\
         .send_keys(Keys.HOME + datetime.today().strftime("%d%m%Y"))
 #
