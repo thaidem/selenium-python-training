@@ -34,7 +34,7 @@ def test_sign_login(driver):
     # WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, './select[@name="country_code"]
     # /option[[value="US"]')))
     driver.find_element_by_css_selector('input.select2-search__field')\
-        .send_keys(Keys.HOME + "United States" + Keys.ENTER)
+        .send_keys("United States" + Keys.ENTER)
     # countries.find_element_by_css_selector('select [value="US"]').click()
     driver.implicitly_wait(5)
     driver.find_element_by_css_selector('[value="NY"]').click()
