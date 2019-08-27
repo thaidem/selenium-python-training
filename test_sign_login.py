@@ -23,7 +23,7 @@ def test_sign_login(driver):
     get_login(driver, "dem11112@gmail.com", "260596")
     if len(driver.find_elements(By.LINK_TEXT, 'Logout')) > 0:
         print("Такой email зарегистрирован, введите другой")
-        raise SystemExit
+        driver.quit()
 #
     driver.find_element_by_css_selector('table a').click()
     driver.find_element_by_css_selector('[name="firstname"]').send_keys("Dmitry")
