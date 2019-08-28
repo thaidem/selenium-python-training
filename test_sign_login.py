@@ -12,7 +12,6 @@ def driver(request):
     # wd = webdriver.Firefox(firefox_binary="C:\\Program Files\\Mozilla Firefox\\firefox.exe")
     # wd = webdriver.Firefox()
     # wd = webdriver.Ie()
-    # wd.implicitly_wait(10)
     request.addfinalizer(wd.quit)
     return wd
 
@@ -20,7 +19,9 @@ def driver(request):
 def test_sign_login(driver):
     driver.get("https://litecart.stqa.ru/en/")
     # driver.get("http://localhost/litecart/en/")
-    get_login(driver, "dem11112@gmail.com", "260596")
+    email = "dem11113@gmail.com"
+    password = "260596"
+    get_login(driver, email, password)
     if len(driver.find_elements(By.LINK_TEXT, 'Logout')) > 0:
         print("Такой email зарегистрирован, введите другой")
         driver.quit()
@@ -36,14 +37,14 @@ def test_sign_login(driver):
         .send_keys("United States" + Keys.ENTER)
     driver.implicitly_wait(5)
     driver.find_element_by_css_selector('[value="NY"]').click()
-    driver.find_element_by_css_selector('[name="email"]').send_keys("dem11112@gmail.com")
+    driver.find_element_by_css_selector('[name="email"]').send_keys(email)
     driver.find_element_by_css_selector('[name="phone"]').send_keys(Keys.HOME + "+1-910-336-0370")
-    driver.find_element_by_css_selector('[name="password"]').send_keys("260596")
-    driver.find_element_by_css_selector('[name="confirmed_password"]').send_keys("260596")
+    driver.find_element_by_css_selector('[name="password"]').send_keys(password)
+    driver.find_element_by_css_selector('[name="confirmed_password"]').send_keys(password)
     driver.find_element_by_css_selector('[name="create_account"]').click()
     driver.find_element(By.LINK_TEXT, 'Logout').click()
 #
-    get_login(driver, "dem11112@gmail.com", "260596")
+    get_login(driver, email, password)
     driver.find_element(By.LINK_TEXT, 'Logout').click()
 
 
