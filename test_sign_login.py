@@ -21,7 +21,7 @@ def driver(request):
 def test_sign_login(driver):
     driver.get("https://litecart.stqa.ru/en/")
     # driver.get("http://localhost/litecart/en/")
-    email = random_string('test_', 4) + '@gmail.com'
+    email = random_string('test_', 6) + '@gmail.com'
     password = random_string('', 8)
     get_login(driver, email, password)
     if len(driver.find_elements(By.LINK_TEXT, 'Logout')) > 0:
