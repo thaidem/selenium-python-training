@@ -2,6 +2,8 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+import string
+import random
 
 
 @pytest.fixture
@@ -19,8 +21,8 @@ def driver(request):
 def test_sign_login(driver):
     driver.get("https://litecart.stqa.ru/en/")
     # driver.get("http://localhost/litecart/en/")
-    email = "dem11113@gmail.com"
-    password = "260596"
+    email = random_string('test_', 4) + '@gmail.com'
+    password = random_string('', 8)
     get_login(driver, email, password)
     if len(driver.find_elements(By.LINK_TEXT, 'Logout')) > 0:
         print("Такой email зарегистрирован, введите другой")
@@ -52,3 +54,8 @@ def get_login(driver, email, password):
     driver.find_element_by_css_selector('[name="email"]').send_keys(email)
     driver.find_element_by_css_selector('[name="password"]').send_keys(password)
     driver.find_element_by_css_selector('[name="login"]').click()
+
+
+def random_string(prefix, ln):
+    symbols = string.ascii_letters + string.digits
+    return prefix + "".join([random.choice(symbols) for i in range(ln)])
