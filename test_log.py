@@ -25,5 +25,6 @@ def test_check_countries(driver):
         list_products.append(row_product.get_attribute('href'))
     for i in list_products:
         driver.get(i)
-        driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1")
         print(driver.get_log("browser"))
+        driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1")
+
